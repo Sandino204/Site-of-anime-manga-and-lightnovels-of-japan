@@ -1,0 +1,21 @@
+.spotlight-all{
+    text-decoration: none;
+}
+.spotlight-all:hover{
+    text-decoration: none;
+}
+.spotlight{
+    border-radius: var(--round) var(--round) 0 0;
+}
+.spotlight-desc{
+    border-radius: 0 0 var(--round) var(--round);
+}
+.spotlight-img img{
+    width: 85vw;
+    height: 30vh;
+}
+
+.l-updates-all{
+    border-top: solid 1px red;
+    border-radius: var(--round) var(--round) 0 0;
+}

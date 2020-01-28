@@ -1,0 +1,40 @@
+:root {
+    --bg-fire: linear-gradient(to right, rgb(241, 39, 17), rgb(245, 175, 25));
+    --shadow: 
+        0 2px 23px 0 rgba(0,0,0 , 0.1),
+        0 2px 49px 0 rgba(0,0,0,0.06);
+    --round: 5px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.app{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
+}
+
+.barlow{
+    font-family: 'Barlow', sans-serif;
+}
+
+
+@media(max-width: 759px){
+    .none-md{
+        display: none;
+    }
+}
+
+@media(max-width: 540px){
+    .none-sm{
+        display: none;
+    }
+}
+
+@media(max-width: 322px){
+    .none-5se{
+        display: none;
+    }
+}

@@ -1,0 +1,29 @@
+.logo{
+    font-family: 'Zhi Mang Xing', cursive;
+    height: 70px;
+    width: 100vw;
+    background: var(--bg-fire);
+}
+
+.logo h1{
+    font-size: 3em;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+}
+
+.logo div i{
+    font-size: 3em;
+}
+
+@media(max-width: 719px){
+    .logo h1{
+        font-size: 2em;
+        letter-spacing: 0.1em;
+    }
+    .logo div i{
+        font-size: 2em;
+    }
+    .none{
+        display: none;
+    }
+}
