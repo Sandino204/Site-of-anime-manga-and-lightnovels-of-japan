@@ -1,0 +1,21 @@
+.tumbCaixa{
+    display: inline-block;
+    position: relative;
+    border: solid 0px 0 2px 2px black;
+    box-shadow: var(--shadow)
+}
+.tumbCaixa img {
+    width: 80vw;
+    height: 20vh;
+}
+.tumbs{
+    border: solid 2px black;
+    display: block;
+}
+.tumbname{
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.4em;
+}

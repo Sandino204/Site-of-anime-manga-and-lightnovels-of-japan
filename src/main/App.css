@@ -20,6 +20,13 @@
     font-family: 'Barlow', sans-serif;
 }
 
+.round-top{
+    border-radius: var(--round) var(--round) 0px 0px; 
+}
+
+.round-all{
+    border-radius: var(--round) var(--round) var(--round) var(--round);
+}
 
 @media(max-width: 759px){
     .none-md{
